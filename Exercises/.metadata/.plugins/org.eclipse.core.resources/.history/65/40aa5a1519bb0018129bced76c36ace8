@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class program
+{
+
+   public static void main(String[] args)
+   {
+      int[] array = {2,3,5};
+    ArrayList<Integer> accountList = new ArrayList<Integer>(); 
+    for ( int index = 0; index < accountList.size(); index++)
+    {
+       System.out.println("Index:" + index 
+             + "integer" + accountList.get(index));
+    }
+
+   }
+
+}

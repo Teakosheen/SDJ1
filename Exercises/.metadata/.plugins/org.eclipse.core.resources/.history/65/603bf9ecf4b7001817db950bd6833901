@@ -1,0 +1,11 @@
+import java.util.Scannner;
+public class numbersWithArrays
+{
+
+   public static void main(String[] args)
+   {
+    
+
+   }
+
+}

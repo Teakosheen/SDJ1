@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class numbersWithArrays
+{
+
+   public static void main(String[] args)
+   {
+      final int NumInteger = 10;
+      int[] integer = new int[NumInteger];
+      Scanner keyboard = new Scanner(System.in);
+      {
+         System.out.println("Enter 10 integers");
+      }
+      
+       for(int number = 0; number < 10 ; number++ )
+         {
+          number = keyboard.nextInt();
+         }
+     
+     for (int index = 9; index > -1; index--)
+      {
+         System.out.println("These are your integers:" 
+               + integer[index]);
+      }
+   }
+
+}
